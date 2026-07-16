@@ -1,0 +1,149 @@
+{
+  "city": "Delhi NCR",
+  "operator": "DMRC",
+  "network_km": 392,
+  "total_stations": 288,
+  "lines": [
+    {
+      "id": "blue",
+      "name": "Blue Line",
+      "color": "#2563EB",
+      "stations": [
+        "Dwarka Sector 21","Dwarka Sector 8","Dwarka Sector 9","Dwarka Sector 10",
+        "Dwarka Sector 11","Dwarka Sector 12","Dwarka Sector 13","Dwarka Sector 14",
+        "Dwarka","Dwarka Mor","Nawada","Uttam Nagar West","Uttam Nagar East",
+        "Janakpuri West","Janakpuri East","Tilak Nagar","Subhash Nagar",
+        "Tagore Garden","Rajouri Garden","Ramesh Nagar","Moti Nagar",
+        "Kirti Nagar","Shadipur","Patel Nagar","Rajendra Place",
+        "Karol Bagh","Jhandewalan","Ramakrishna Ashram Marg","Rajiv Chowk",
+        "Barakhamba Road","Mandi House","Pragati Maidan","Indraprastha",
+        "Yamuna Bank","Akshardham","Mayur Vihar Phase-1","Mayur Vihar Pocket-1",
+        "New Ashok Nagar","Noida Sector 15","Noida Sector 16","Noida Sector 18",
+        "Botanical Garden","Golf Course","Noida City Centre","Noida Sector 34",
+        "Noida Sector 52","Noida Sector 61","Noida Sector 59","Noida Sector 62",
+        "Noida Electronic City","Vaishali"
+      ]
+    },
+    {
+      "id": "yellow",
+      "name": "Yellow Line",
+      "color": "#D97706",
+      "stations": [
+        "Samaypur Badli","Rohini Sector 18-19","Haiderpur Badli Mor","Jahangirpuri",
+        "Adarsh Nagar","Azadpur","Model Town","GTB Nagar","Vishwavidyalaya",
+        "Vidhan Sabha","Civil Lines","Kashmere Gate","Chandni Chowk",
+        "Chawri Bazar","New Delhi","Rajiv Chowk","Patel Chowk","Central Secretariat",
+        "Udyog Bhawan","Lok Kalyan Marg","Jor Bagh","INA","AIIMS","Green Park",
+        "Hauz Khas","Malviya Nagar","Saket","Qutab Minar","Chhatarpur",
+        "Sultanpur","Ghitorni","Arjangarh","Guru Dronacharya","Sikanderpur",
+        "MG Road","IFFCO Chowk","Huda City Centre"
+      ]
+    },
+    {
+      "id": "red",
+      "name": "Red Line",
+      "color": "#DC2626",
+      "stations": [
+        "Rithala","Rohini West","Rohini East","Pitampura","Kohat Enclave",
+        "Netaji Subhash Place","Keshav Puram","Kanhaiya Nagar","Inderlok",
+        "Shastri Nagar","Pratap Nagar","Pulbangash","Tis Hazari","Kashmere Gate",
+        "Shastri Park","Seelampur","Welcome","Shahdara","Mansarovar Park",
+        "Jhilmil","Dilshad Garden"
+      ]
+    },
+    {
+      "id": "green",
+      "name": "Green Line",
+      "color": "#059669",
+      "stations": [
+        "Inderlok","Ashok Park Main","Punjabi Bagh West","ESI Hospital",
+        "Rajouri Garden","Madipur","Paschim Vihar East","Paschim Vihar West",
+        "Peera Garhi","Udyog Nagar","Surajmal Stadium","Nangloi","Nangloi Railway Station",
+        "Rajdhani Park","Mundka","Mundka Industrial Area","Ghevra","Tikri Kalan",
+        "Tikri Border","Pandit Shree Ram Sharma","Bahadurgarh City","Brigadier Hoshiyar Singh"
+      ]
+    },
+    {
+      "id": "violet",
+      "name": "Violet Line",
+      "color": "#7C3AED",
+      "stations": [
+        "Kashmere Gate","Lal Quila","Jama Masjid","Delhi Gate","ITO",
+        "Mandi House","Janpath","Central Secretariat","Khan Market","Jawaharlal Nehru Stadium",
+        "Jangpura","Lajpat Nagar","Moolchand","Kailash Colony","Nehru Place",
+        "Kalkaji Mandir","Govind Puri","Harkesh Nagar Okhla","Jasola Apollo","Sarita Vihar",
+        "Mohan Estate","Tughlakabad","Badarpur","Sarai","NHPC Chowk",
+        "Mewala Maharajpur","Sector 28","Badkhal Mor","Old Faridabad","Neelam Chowk Ajronda",
+        "Bata Chowk","Escorts Mujesar"
+      ]
+    },
+    {
+      "id": "pink",
+      "name": "Pink Line",
+      "color": "#DB2777",
+      "stations": [
+        "Majlis Park","Azadpur","Shalimar Bagh","Netaji Subhash Place","Shakurpur",
+        "Punjabi Bagh East","ESI Basaidarapur","Rajouri Garden","Mayapuri","Naraina Vihar",
+        "Delhi Cantonment","Durgabai Deshmukh South Campus","Sir Vishweshwaraiah Moti Bagh",
+        "Bhikaji Cama Place","Sarojini Nagar","INA","South Extension","Lajpat Nagar",
+        "Vinobapuri","Ashram","Hazrat Nizamuddin","Mayur Vihar Phase-1","Trilokpuri Sanjay Lake",
+        "East Vinod Nagar","Mandawali West","IP Extension","Anand Vihar","Karkarduma",
+        "Karkarduma Court","Krishna Nagar","East Azad Nagar","Welcome","Jaffrabad",
+        "Maujpur-Babarpur","Gokulpuri","Johri Enclave","Shiv Vihar"
+      ]
+    }
+  ],
+  "interchanges": [
+    { "station": "Rajiv Chowk", "lines": ["blue", "yellow"] },
+    { "station": "Kashmere Gate", "lines": ["red", "yellow", "violet"] },
+    { "station": "Mandi House", "lines": ["blue", "violet"] },
+    { "station": "Central Secretariat", "lines": ["yellow", "violet"] },
+    { "station": "Inderlok", "lines": ["red", "green"] },
+    { "station": "Rajouri Garden", "lines": ["blue", "green", "pink"] },
+    { "station": "INA", "lines": ["yellow", "pink"] },
+    { "station": "Lajpat Nagar", "lines": ["violet", "pink"] },
+    { "station": "Yamuna Bank", "lines": ["blue"] },
+    { "station": "Netaji Subhash Place", "lines": ["red", "pink"] },
+    { "station": "Azadpur", "lines": ["yellow", "pink"] },
+    { "station": "Welcome", "lines": ["red", "pink"] },
+    { "station": "Mayur Vihar Phase-1", "lines": ["blue", "pink"] }
+  ],
+  "fares": {
+    "0-2":  10,
+    "3-5":  20,
+    "6-12": 30,
+    "13-21":40,
+    "22-32":50,
+    "33+":  60
+  },
+  "avg_speed_kmh": 34,
+  "avg_stop_gap_minutes": 2.5,
+  "tourist_spots": {
+    "Rajiv Chowk": [
+      { "name": "Connaught Place Heritage Walk", "type": "attraction", "dist_m": 100 },
+      { "name": "Palika Bazar", "type": "market", "dist_m": 350 },
+      { "name": "Haldiram's CP", "type": "food", "dist_m": 220 },
+      { "name": "Cafe Coffee Day CP", "type": "cafe", "dist_m": 180 },
+      { "name": "National Museum", "type": "attraction", "dist_m": 900 }
+    ],
+    "Kashmere Gate": [
+      { "name": "Red Fort", "type": "attraction", "dist_m": 1200 },
+      { "name": "Jama Masjid", "type": "attraction", "dist_m": 1500 },
+      { "name": "Chandni Chowk Market", "type": "market", "dist_m": 800 },
+      { "name": "Paranthe Wali Gali", "type": "food", "dist_m": 900 }
+    ],
+    "Hauz Khas": [
+      { "name": "Hauz Khas Village", "type": "market", "dist_m": 600 },
+      { "name": "Deer Park", "type": "attraction", "dist_m": 400 },
+      { "name": "Social Hauz Khas", "type": "cafe", "dist_m": 650 }
+    ],
+    "Qutab Minar": [
+      { "name": "Qutab Minar Complex", "type": "attraction", "dist_m": 200 },
+      { "name": "Mehrauli Archaeological Park", "type": "attraction", "dist_m": 300 }
+    ],
+    "Indraprastha": [
+      { "name": "Purana Qila", "type": "attraction", "dist_m": 800 },
+      { "name": "National War Memorial", "type": "attraction", "dist_m": 1200 }
+    ]
+  }
+}

@@ -8,8 +8,9 @@ MetroVerse AI is a full-stack AI-powered metro navigation platform built for Ind
 
 ## 🌟 Live Demo
 
-> Frontend: *Coming soon on Vercel*  
-> Backend API: *Coming soon on Render*
+
+> Frontend: https://your-vercel-url.vercel.app
+> Backend API: https://metrosphere-backend.onrender.com/api/health
 
 ---
 

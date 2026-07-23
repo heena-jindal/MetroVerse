@@ -2,6 +2,7 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import ChatBubble from "@/components/ChatBubble";
 import PushToast  from "@/components/PushToast";
+import { AuthProvider } from "@/context/AuthContext";
 
 export const metadata = {
   title: "MetroVerse — India's Unified Metro App",
@@ -29,30 +30,32 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {children}
-        <ChatBubble />
-        <PushToast />
-        <Toaster
-          position="top-center"
-          toastOptions={{
-            style: {
-              background: "#0F1629",
-              color: "#f1f5f9",
-              border: "1px solid rgba(255,255,255,0.1)",
-              borderRadius: "12px",
-              fontSize: "13px",
-              fontWeight: 500,
-              fontFamily: "'Inter', sans-serif",
-              boxShadow: "0 8px 32px rgba(0,0,0,0.6)",
-            },
-            success: {
-              iconTheme: { primary: "#22d3ee", secondary: "#080C18" },
-            },
-            error: {
-              iconTheme: { primary: "#f87171", secondary: "#080C18" },
-            },
-          }}
-        />
+        <AuthProvider>
+          {children}
+          <ChatBubble />
+          <PushToast />
+          <Toaster
+            position="top-center"
+            toastOptions={{
+              style: {
+                background: "#0F1629",
+                color: "#f1f5f9",
+                border: "1px solid rgba(255,255,255,0.1)",
+                borderRadius: "12px",
+                fontSize: "13px",
+                fontWeight: 500,
+                fontFamily: "'Inter', sans-serif",
+                boxShadow: "0 8px 32px rgba(0,0,0,0.6)",
+              },
+              success: {
+                iconTheme: { primary: "#22d3ee", secondary: "#080C18" },
+              },
+              error: {
+                iconTheme: { primary: "#f87171", secondary: "#080C18" },
+              },
+            }}
+          />
+        </AuthProvider>
       </body>
     </html>
   );

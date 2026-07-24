@@ -80,20 +80,6 @@ export default function LoginPage() {
     }
   }
 
-  async function handleGoogleLogin() {
-    try {
-      const { error } = await supabase.auth.signInWithOAuth({
-        provider: "google",
-        options: {
-          redirectTo: typeof window !== "undefined" ? window.location.origin + "/city" : undefined,
-        },
-      });
-      if (error) throw error;
-    } catch (err) {
-      toast.error(err.message || "Failed to initiate Google authentication.");
-    }
-  }
-
   return (
     <div className="page-enter" style={{
       minHeight: "100vh",
@@ -306,15 +292,6 @@ export default function LoginPage() {
 
         {/* Social login */}
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 24 }}>
-          <button
-            id="login-google"
-            className="btn-sm ghost"
-            style={{ justifyContent: "center", padding: "12px", fontSize: 13 }}
-            onClick={handleGoogleLogin}
-            disabled={loading}
-          >
-            🅖 Google
-          </button>
           <button
             id="login-digilocker"
             className="btn-sm ghost"
